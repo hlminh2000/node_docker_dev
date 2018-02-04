@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev_server":
+      "docker run -p 8080:8080 -v /Users/mha/dockerPlayground:/usr/src/app ubuntu_node"
   },
   "author": "",
   "license": "ISC",
